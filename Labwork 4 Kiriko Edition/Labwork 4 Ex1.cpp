@@ -30,11 +30,6 @@ int task1()
 		} else
 		cout << "Cannot divide by 0, silly! Enter another value\n";
 		
-	}
-	
-		
-		
-		
-	
+	}	
 	return 0;
 }

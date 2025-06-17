@@ -23,8 +23,10 @@ int task2() {
 	int con1 = 0;
 	while (con1 <= 20) {
 		con1++;
-		if (con1 =)
-		sum2 = sum2 + pow(con1, 2);
+		if (con1 % 2 == 0) {
+			sum2 = sum2 + pow(con1, 2);
+		}
+			
 
 	}
 	cout << "sum of all even numbers squared from 1-20 is: " << sum2 << endl;
@@ -33,7 +35,10 @@ int task2() {
 	int con2 = 0;
 	do {
 		con2++;
-		sum3 = sum3 + pow(con2, 2);
+		if (con2 % 2 == 0) {
+			sum3 = sum3 + pow(con2, 2);
+		}
+		
 	} while (con2 <= 20);
 	cout << "sum of all even numbers squared from 1-20 is: " << sum1 << endl;
 
